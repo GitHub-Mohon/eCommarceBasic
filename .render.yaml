@@ -30,12 +30,14 @@ services:
 
       # Optional: only if you use a database
       - key: DB_CONNECTION
-        value: mysql
+        value: pgsql
       - key: DB_HOST
-        value: 127.0.0.1
+        value: dpg-xxxxxx.singapore-postgres.render.com
+      - key: DB_PORT
+        value: 5432
       - key: DB_DATABASE
-        value: ecommerce.com
+        value: ecommerce_db
       - key: DB_USERNAME
-        value: root
+        value: user123
       - key: DB_PASSWORD
-        value:
+        value: password123
